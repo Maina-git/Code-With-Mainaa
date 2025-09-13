@@ -30,7 +30,7 @@ const Contact = () => {
           <h2 className="text-5xl font-bold text-purple-700 dark:text-purple-400">
             Get in Touch
           </h2>
-          <p className="text-lg">I'd love to hear from you!</p>
+          <p className="text-lg">love to hear from you!</p>
           <p className="text-sm leading-relaxed">
             If you have any queries or just want to say hi, feel free to use the
             contact form or reach me through my socials.

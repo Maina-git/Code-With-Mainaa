@@ -5,7 +5,6 @@ import About from '../components/helper/About';
 import Experience from '../components/helper/Experience';
 import Projects from '../components/helper/Projects';
 import Contact from '../components/helper/Contact';
-import AOS from "aos";
 import "aos/dist/aos.css";
 
 
@@ -13,29 +12,21 @@ import "aos/dist/aos.css";
 const Main = () => {
 
 useEffect(()=>{
-  const initAOS = async () =>{
-    await import("aos");
+useEffect(() => {
+  const initAOS = async () => {
+    const AOS = (await import("aos")).default;
     AOS.init({
-      duration:1000,
-      easing:"ease",
-      once:true,
-      anchorPlacement:"top-bottom"
-    })
-    initAOS();
+      duration: 1000,
+      easing: "ease",
+      once: true,
+      anchorPlacement: "top-bottom",
+    });
   };
+  initAOS(); // ✅ call it here
 }, []);
-{
-  /*
-  return (
-    <div>
-      <Hero/>
-      <About/>
-      <Experience/>
-      <Projects/>
-      <Contact/>
-    </div>
-    */
-}
+
+}, []);
+
 return (
   <div>
     <div id="hero">

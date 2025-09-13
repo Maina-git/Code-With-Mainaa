@@ -1,7 +1,6 @@
 "use client"
 import Link from "next/link";
 import React from "react";
-import { FaConnectdevelop } from "react-icons/fa6";
 import ThemeToggler from "../../Theme/ThemeToggler";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaFileCode } from "react-icons/fa";

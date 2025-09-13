@@ -14,8 +14,7 @@ const Hero = () => {
           initial={{ opacity: 0, x: -80 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="flex flex-col gap-6 w-full md:w-1/2 text-center md:text-left"
-        >
+          className="flex flex-col gap-6 w-full md:w-1/2 text-center md:text-left">
           <h2 className="font-bold text-3xl text-purple-700 dark:text-white">
             Francis Mainaa
           </h2>
@@ -24,7 +23,7 @@ const Hero = () => {
             FrontEnd Engineer
           </h1>
           <p className="text-purple-700 text-sm dark:text-white">
-            Hey I'm Francis I'm a result driven Frontend Developer with strong foundation in building
+            Hey I am Francis  a result driven Frontend Developer with strong foundation in building
             responsive, user friendly, and performance optimized web applications. My focus is on delivering
             fast, modern and engaging digital experiences that keep users coming back.
           </p>
@@ -46,7 +45,6 @@ const Hero = () => {
                 </p>
               </div>
             </div>
-
             <div className="flex items-center justify-center p-4 gap-2 rounded-lg shadow-lg bg-purple-700">
               <h1 className="font-bold text-5xl text-white dark:text-white">71</h1>
               <div>
@@ -57,21 +55,18 @@ const Hero = () => {
             </div>
           </div>
         </motion.div>
-
         {/** image section */}
         <motion.div
           initial={{ opacity: 0, x: 80 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-          className="flex w-full md:w-1/2 justify-center items-center"
-        >
+          className="flex w-full md:w-1/2 justify-center items-center">
           <Image
             className="rounded-full object-cover"
             width={400}
             height={400}
             src="/images/Francis.jpg"
-            alt=""
-          />
+            alt=""/>
         </motion.div>
       </div>
     </div>
