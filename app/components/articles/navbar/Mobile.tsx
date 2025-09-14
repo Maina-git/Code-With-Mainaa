@@ -1,5 +1,4 @@
 import React from "react";
-import { FaConnectdevelop } from "react-icons/fa6";
 import Link from "next/link";
 import { IoCloseCircleSharp } from "react-icons/io5";
 import ThemeToggler from "../../Theme/ThemeToggler";

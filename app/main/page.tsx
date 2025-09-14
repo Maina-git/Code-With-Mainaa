@@ -11,7 +11,6 @@ import "aos/dist/aos.css";
 
 const Main = () => {
 
-useEffect(()=>{
 useEffect(() => {
   const initAOS = async () => {
     const AOS = (await import("aos")).default;
@@ -25,7 +24,6 @@ useEffect(() => {
   initAOS(); // ✅ call it here
 }, []);
 
-}, []);
 
 return (
   <div>
