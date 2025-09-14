@@ -14,6 +14,12 @@ I’m **Francis Mainaa**, a results-driven frontend developer with solid experie
 
 ---
 
+## 🌍 Live Demo
+
+🔗 [View Portfolio Website](https://code-with-mainaa-3m5a.vercel.app/)
+
+---
+
 ## 📚 Skills & Technologies
 
 Here are some of the tools and technologies I use and enjoy working with:
@@ -24,7 +30,7 @@ Here are some of the tools and technologies I use and enjoy working with:
 | Programming          | JavaScript, TypeScript                                |
 | Frameworks & Libraries | React.js, Next.js                                 |
 | Version Control      | Git, GitHub                                            |
-| Others               | Performance optimization, responsive design, clean code crux |
+| Others               | Performance optimization, responsive design, clean code |
 
 ---
 
@@ -60,7 +66,7 @@ I’d love to hear from you! Whether it’s a project, collaboration or just to 
 - **Email:** francismm2023@gmail.com  
 - **Phone:** +254 793 720 578  
 - **Contact Form:** (On the site)  
-- **Socials:** [You can link your LinkedIn, GitHub etc., here]
+- **Socials:** [Add LinkedIn, GitHub, or Twitter here]
 
 ---
 
