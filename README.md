@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Francis Mainaa — Frontend Developer Portfolio
 
-## Getting Started
+Welcome to my personal portfolio built with **Next.js**.  
+This site showcases who I am, what I’ve built, and what I can offer as a frontend engineer.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 About Me
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I’m **Francis Mainaa**, a results-driven frontend developer with solid experience in building responsive, user-friendly, and performance-optimized web applications. I’m passionate about the craft of web development and always learning.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Experience**: ~3 years  
+- **Projects Completed**: 70+
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📚 Skills & Technologies
 
-To learn more about Next.js, take a look at the following resources:
+Here are some of the tools and technologies I use and enjoy working with:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Category             | Tools / Technologies                                  |
+|----------------------|--------------------------------------------------------|
+| Markup & Styling     | HTML5, CSS3, Tailwind CSS, Bootstrap                  |
+| Programming          | JavaScript, TypeScript                                |
+| Frameworks & Libraries | React.js, Next.js                                 |
+| Version Control      | Git, GitHub                                            |
+| Others               | Performance optimization, responsive design, clean code crux |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 💼 Experience
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Year | Role                         | Organization / Context                      | Highlights |
+|------|------------------------------|---------------------------------------------|------------|
+| 2023 | Junior Web Developer         | School Internship                          | Helped build and maintain the website using HTML, CSS, JavaScript; worked in a team. |
+| 2024 | Frontend Developer           | VPS Kings                                   | Built frontend projects using React & Tailwind CSS; collaborated on UI/UX improvements. |
+| 2025 | Freelance Developer          | Self-Employed                               | Delivered custom web solutions for startups & businesses; handled full cycle from design to deployment. |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🔨 Projects
+
+Here are some projects I’ve worked on. Feel free to click through to see them live.
+
+| Project Name               | Tech Stack                             | Description                                              |
+|----------------------------|------------------------------------------|----------------------------------------------------------|
+| Travel Website            | React, Tailwind CSS, TypeScript         | A site to explore & book travel destinations.           |
+| Job Portal                | React, Tailwind CSS, TypeScript         | Platform to connect job seekers & employers.            |
+| Blog Haven                | React, Tailwind CSS, TypeScript, Firebase | Blogging platform with CRUD, auth, basics.             |
+| GD Coding                 | HTML, CSS, JavaScript                   | A coding bootcamp site with courses & resources.        |
+| Amazon Landing Page       | React, CSS                              | A stylized landing page inspired by Amazon’s product layout. |
+| Car Vibe Perfect Ride     | React, Tailwind CSS, TypeScript, Firebase | Rental site for booking motorcycles.                   |
+
+---
+
+## 📞 Contact
+
+I’d love to hear from you! Whether it’s a project, collaboration or just to say hi:
+
+- **Email:** francismm2023@gmail.com  
+- **Phone:** +254 793 720 578  
+- **Contact Form:** (On the site)  
+- **Socials:** [You can link your LinkedIn, GitHub etc., here]
+
+---
+
+## 🧰 Getting Started Locally
+
+If you’d like to run the portfolio yourself for development:
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/yourusername/yourportfolio.git
+   cd yourportfolio
