@@ -10,7 +10,7 @@ interface Props {
 
 const Mobile = ({ showNav, openNav }: Props) => {
   const NavLinks = [
-    { id: 1, title: "Home", page: "#home" },
+    { id: 1, title: "Overview", page: "#home" },
     { id: 2, title: "About", page: "#about" },
     { id: 3, title: "Experience", page: "#experience" },
     { id: 4, title: "Projects", page: "#projects" },

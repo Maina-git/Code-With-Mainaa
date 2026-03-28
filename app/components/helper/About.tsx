@@ -4,120 +4,174 @@ import { FaHtml5, FaCss3Alt, FaBootstrap } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
-import { SiNextdotjs } from "react-icons/si";
+import { SiNextdotjs, SiGithubcopilot } from "react-icons/si";
 import { ImGithub } from "react-icons/im";
+import { MdSmartToy, MdOutlineSmartToy } from "react-icons/md";
 import { motion } from "framer-motion";
 
 const About = () => {
-  const Skills = [
+
+
+  const skillCategories = [
     {
-      id: 1,
-      title: "HTML 5",
-      description: "The standard markup language for creating web pages.",
-      icon: <FaHtml5 className="text-orange-600 text-5xl" />,
+      title: "Programming Languages",
+      skills: [
+        {
+          id: 1,
+          title: "HTML 5",
+          description: "The standard markup language for creating web pages.",
+          icon: <FaHtml5 className="text-orange-600 text-5xl" />,
+        },
+        {
+          id: 2,
+          title: "CSS 3",
+          description: "Used to style and design web pages.",
+          icon: <FaCss3Alt className="text-blue-600 text-5xl" />,
+        },
+        {
+          id: 3,
+          title: "JavaScript",
+          description: "Adds interactivity and logic to websites.",
+          icon: <IoLogoJavascript className="text-yellow-500 text-5xl" />,
+        },
+        {
+          id: 4,
+          title: "TypeScript",
+          description: "JavaScript with static typing.",
+          icon: <BiLogoTypescript className="text-blue-500 text-5xl" />,
+        },
+      ],
     },
     {
-      id: 2,
-      title: "CSS 3",
-      description: "Used to style and design web pages with layouts, colors, and animations.",
-      icon: <FaCss3Alt className="text-blue-600 text-5xl" />,
+      title: "Frameworks & Libraries",
+      skills: [
+        {
+          id: 5,
+          title: "React JS",
+          description: "Build dynamic user interfaces.",
+          icon: <RiReactjsLine className="text-cyan-400 text-5xl" />,
+        },
+        {
+          id: 6,
+          title: "Next JS",
+          description: "Production-ready React framework.",
+          icon: <SiNextdotjs className="text-black dark:text-white text-5xl" />,
+        },
+        {
+          id: 7,
+          title: "Tailwind CSS",
+          description: "Utility-first CSS framework.",
+          icon: <RiTailwindCssFill className="text-sky-400 text-5xl" />,
+        },
+        {
+          id: 8,
+          title: "Bootstrap",
+          description: "Component-based UI framework.",
+          icon: <FaBootstrap className="text-purple-600 text-5xl" />,
+        },
+      ],
     },
     {
-      id: 3,
-      title: "JavaScript",
-      description: "The programming language that adds interactivity and logic to websites.",
-      icon: <IoLogoJavascript className="text-yellow-500 text-5xl" />,
-    },
-    {
-      id: 4,
-      title: "React JS",
-      description: "A popular library for building dynamic and reusable user interfaces.",
-      icon: <RiReactjsLine className="text-cyan-400 text-5xl" />,
-    },
-    {
-      id: 5,
-      title: "Tailwind CSS",
-      description: "A utility-first CSS framework for fast and responsive designs.",
-      icon: <RiTailwindCssFill className="text-sky-400 text-5xl" />,
-    },
-    {
-      id: 6,
-      title: "Bootstrap",
-      description: "A component-based CSS framework for quick, responsive UI development.",
-      icon: <FaBootstrap className="text-purple-600 text-5xl" />,
-    },
-    {
-      id: 7,
-      title: "TypeScript",
-      description: "A superset of JavaScript that adds static typing for more robust code.",
-      icon: <BiLogoTypescript className="text-blue-500 text-5xl" />,
-    },
-    {
-      id: 8,
-      title: "Next JS",
-      description: "A React framework for production-ready web apps with SSR and API routes.",
-      icon: <SiNextdotjs className="text-black dark:text-white text-5xl" />,
-    },
-    {
-      id: 9,
-      title: "Git & GitHub",
-      description: "Version control and collaboration platform for code management.",
-      icon: <ImGithub className="text-red-400 dark:text-white text-5xl" />,
+      title: "AI Tools",
+      skills: [
+        {
+          id: 9,
+          title: "GitHub Copilot",
+          description: "AI coding assistant.",
+          icon: <SiGithubcopilot className="text-green-500 text-5xl" />,
+        },
+        {
+          id: 10,
+          title: "ChatGPT",
+          description: "AI for coding, debugging & content.",
+          icon: <MdOutlineSmartToy className="text-green-500 text-5xl" />,
+        },
+        {
+          id: 11,
+          title: "Claude AI",
+          description: "AI assistant for problem-solving.",
+          icon: <MdSmartToy className="text-purple-500 text-5xl" />,
+        },
+        {
+          id: 12,
+          title: "Git & GitHub",
+          description: "Version control & collaboration.",
+          icon: <ImGithub className="text-gray-800 dark:text-white text-5xl" />,
+        },
+      ],
     },
   ];
 
   return (
     <div className="flex flex-col items-center py-12">
-      {/* Top section */}
+      
       <motion.div
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="w-[90%] text-center space-y-6">
+        className="w-[90%] text-center space-y-6"
+      >
         <h1 className="text-3xl font-bold text-purple-800 dark:text-white">
           About Me
         </h1>
+
         <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
           I specialize in building modern, responsive, and scalable web
-          applications. My focus is on clean code, intuitive design, and
-          performance optimization using the latest web technologies.
+          applications with clean code and great user experience.
         </p>
       </motion.div>
 
-      {/* Skills section */}
-      <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.7, delay: 0.2 }}
-        viewport={{ once: true }}
-        className="mt-10 w-[90%]">
-        <h2 className="text-2xl font-semibold text-center mb-6 text-purple-800 dark:text-purple-300">
-          Skills & Technologies
-        </h2>
+      {/* SKILLS */}
+      <div className="mt-10 w-[90%] space-y-12">
+        {skillCategories.map((category, i) => (
+          <motion.div
+            key={i}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: i * 0.2 }}
+            viewport={{ once: true }}>
+            <h2 className="text-2xl font-semibold text-center mb-6 text-purple-800 dark:text-purple-300">
+              {category.title}
+            </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          {Skills.map((skill, index) => (
-            <motion.div
-              key={skill.id}
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              viewport={{ once: true }}
-              className="flex flex-col items-center p-6 rounded-2xl border border-purple-200 dark:border-gray-700 hover:shadow-md transition">
-              {skill.icon}
-              <h3 className="mt-4 text-lg font-semibold text-gray-800 dark:text-white">
-                {skill.title}
-              </h3>
-              <p className="text-sm text-purple-700 dark:text-gray-400 mt-2 text-center">
-                {skill.description}
-              </p>
-            </motion.div>
-          ))}
-        </div>
-      </motion.div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+              {category.skills.map((skill, index) => (
+                <motion.div
+                  key={skill.id}
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  viewport={{ once: true }}
+                  className="flex flex-col items-center p-6 rounded-2xl border border-purple-200 dark:border-gray-700 hover:shadow-md transition hover:-translate-y-2">
+                  {skill.icon}
+                  <h3 className="mt-4 text-lg font-semibold text-gray-800 dark:text-white">
+                    {skill.title}
+                  </h3>
+                  <p className="text-sm text-purple-700 dark:text-gray-400 mt-2 text-center">
+                    {skill.description}
+                  </p>
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
+        ))}
+      </div>
     </div>
   );
 };
 
 export default About;
+
+
+
+
+
+
+
+
+
+
+
+
+

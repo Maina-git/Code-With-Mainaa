@@ -59,14 +59,23 @@ const Projects = () => {
       image: "/images/Screenshot (42).png",
       tools: ["React", "Tailwind CSS", "Typescript", "Firebase"],
     },
+ {
+      id: 7,
+      title: "TR Road Safety Security & Authority",
+      description:
+        "A website that is  meant to ensure there is  road safety and  Security",
+      link: "https://tr-road-safety-platform.vercel.app/",
+      image: "/images/Screenshot (236).png",
+      tools: ["React", "Tailwind CSS", "Typescript", "Firebase"],
+    },
   ];
 
-  // Directions for animations (looped through projects)
+
   const directions = [
-    { x: -100, y: 0 }, // left
-    { x: 100, y: 0 },  // right
-    { x: 0, y: 100 },  // bottom
-    { x: 0, y: -100 }, // top
+    { x: -100, y: 0 },
+    { x: 100, y: 0 },  
+    { x: 0, y: 100 },  
+    { x: 0, y: -100 }, 
   ];
 
   return (
@@ -91,7 +100,7 @@ const Projects = () => {
                 whileInView={{ opacity: 1, x: 0, y: 0 }}
                 transition={{ duration: 0.7, delay: index * 0.2 }}
                 viewport={{ once: true }}
-                className="border border-purple-200 dark:border-gray-700 rounded-2xl hover:shadow-md transition flex flex-col overflow-hidden">
+                className="rounded-2xl hover:shadow-md transition flex flex-col overflow-hidden">
                 <div className="relative h-48 w-full">
                   <Image
                     src={project.image}

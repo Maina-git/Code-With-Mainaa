@@ -9,7 +9,6 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <div className="w-full py-16 bg-gray-50 dark:bg-black flex flex-col gap-8">
-      {/* Heading */}
       <motion.h1
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -19,8 +18,7 @@ const Contact = () => {
         Contact Me
       </motion.h1>
 
-      <div className="w-[90%] mx-auto flex flex-col md:flex-row items-center justify-center p-10 bg-white dark:bg-purple-900 rounded-xl shadow-lg gap-10">
-        {/* Left Section - Text + Socials */}
+      <div className="w-[90%] mx-auto flex flex-col md:flex-row items-center justify-center p-10 bg-white dark:bg-purple-900 shadow-lg gap-10">
         <motion.div
           initial={{ opacity: 0, x: -60 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -36,18 +34,15 @@ const Contact = () => {
             contact form or reach me through my socials.
           </p>
 
-          {/* Email */}
+    
           <div className="flex items-center gap-3 mt-4">
             <GrMail className="text-2xl text-purple-700 dark:text-purple-400" />
             <span className="text-lg">francismm2023@gmail.com</span>
           </div>
-          {/* WhatsApp */}
           <div className="flex items-center gap-3 mt-4">
             <FaWhatsappSquare className="text-2xl text-green-700 dark:text-purple-400" />
             <span className="text-lg">+254 793 720 578</span>
           </div>
-
-          {/* Social Links */}
           <div className="flex items-center gap-4 mt-4">
             <AiFillLike className="text-2xl" />
             <div className="flex gap-5">
@@ -64,7 +59,7 @@ const Contact = () => {
           </div>
         </motion.div>
 
-        {/* Right Section - Form */}
+    
         <motion.div
           initial={{ opacity: 0, x: 60 }}
           whileInView={{ opacity: 1, x: 0 }}
