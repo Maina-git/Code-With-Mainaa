@@ -83,8 +83,7 @@ const Projects = () => {
       <div className="w-[90%] mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: -30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          whileInView={{ opacity: 1, y: 0 }}          transition={{ duration: 0.6 }}
           viewport={{ once: true }}
           className="text-3xl font-bold text-purple-700 dark:text-purple-300 text-center mb-12">
           Projects
@@ -104,7 +103,7 @@ const Projects = () => {
                 <div className="relative h-48 w-full">
                   <Image
                     src={project.image}
-                    alt={project.title}
+                    alt={project.title} 
                     layout="fill"
                     objectFit="cover"
                     className="rounded-t-2xl"/>

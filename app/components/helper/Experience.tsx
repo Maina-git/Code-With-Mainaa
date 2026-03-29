@@ -2,6 +2,7 @@
 "use client";
 import React from "react";
 import { FaSquareUpwork, FaSchool, FaRProject } from "react-icons/fa6";
+import { SiFiverr } from "react-icons/si";
 import { motion } from "framer-motion";
 import { SiFreelancer } from "react-icons/si";
 
@@ -43,6 +44,18 @@ const Experience = () => {
         "Working with global clients to design and build responsive, user-friendly web interfaces using React, Tailwind CSS, and modern frontend tools. Delivering high-quality projects focused on performance, accessibility, and great user experience.",
       icon: <SiFreelancer className="text-7xl text-indigo-600" />,
     },
+   {
+      id: 5,
+      year: "2025",
+      position: "Frontend Developer",
+      company: "Fiverr",
+      description:
+        "Offering frontend development services through Fiverr gigs, specializing in building modern, responsive, and high-performance web applications. Skilled in React, Next.js, and Tailwind CSS to create visually appealing and user-friendly interfaces. Focused on delivering clean code, fast performance, and client satisfaction across multiple projects.",
+      icon: <SiFiverr className="text-7xl text-green-500" />,
+    },
+
+
+
   ];
 
   return (

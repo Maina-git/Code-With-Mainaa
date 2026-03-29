@@ -44,7 +44,6 @@ const Contact = () => {
             <span className="text-lg">+254 793 720 578</span>
           </div>
           <div className="flex items-center gap-4 mt-4">
-            <AiFillLike className="text-2xl" />
             <div className="flex gap-5">
               <Link href="https://www.instagram.com/francis_mainaa/">
                 <FaInstagramSquare className="text-3xl text-purple-700 hover:text-purple-900 dark:text-purple-300 dark:hover:text-white transition" />
