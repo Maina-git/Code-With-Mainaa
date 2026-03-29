@@ -46,7 +46,7 @@ const Experience = () => {
     },
    {
       id: 5,
-      year: "2025",
+      year: "2025 - Present",
       position: "Frontend Developer",
       company: "Fiverr",
       description:
