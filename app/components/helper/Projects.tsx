@@ -19,7 +19,7 @@ const Projects = () => {
       id: 2,
       title: "Job Portal",
       description: "A job portal that connects job seekers with employers.",
-      link: "",
+      link: "https://job-portal-indol-seven.vercel.app/",
       image: "/images/Screenshot (30).png",
       tools: ["React", "Tailwind CSS", "Typescript"],
     },
