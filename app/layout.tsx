@@ -16,7 +16,6 @@ export const metadata: Metadata = {
   description: "Next js Template",
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -24,6 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+
       <body
         className={`${font.className} antialiased`}>
         <Provider>

@@ -61,18 +61,15 @@ const Experience = () => {
   return (
     <div className="w-full py-20 bg-gray-50 dark:bg-black">
       <div className="w-[90%] mx-auto">
-        {/* Heading */}
         <motion.h2
           initial={{ opacity: 0, y: -30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-3xl font-bold text-purple-700 dark:text-purple-300 text-center mb-16"
-        >
+          className="text-3xl font-bold text-purple-700 dark:text-purple-300 text-center mb-16">
           Experience
         </motion.h2>
 
-        {/* Cards */}
         <div className="flex flex-col gap-12">
           {Experiences.map((exp, index) => (
             <motion.div
@@ -83,9 +80,7 @@ const Experience = () => {
               viewport={{ once: true }}
               className={`flex flex-col md:flex-row ${
                 index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-              } justify-between items-center p-10 min-h-[200px] rounded-2xl transition`}
-            >
-              {/* Text */}
+              } justify-between items-center p-10 min-h-[200px] rounded-2xl transition`}>
               <div className="flex flex-col text-center md:text-left max-w-xl space-y-2">
                 <span className="text-sm font-semibold text-purple-600 dark:text-purple-400">
                   {exp.year}
@@ -101,7 +96,6 @@ const Experience = () => {
                 </p>
               </div>
 
-              {/* Icon */}
               <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -111,8 +105,7 @@ const Experience = () => {
                   type: "spring",
                 }}
                 viewport={{ once: true }}
-                className="mt-6 md:mt-0 md:mx-10 flex-shrink-0"
-              >
+                className="mt-6 md:mt-0 md:mx-10 flex-shrink-0">
                 {exp.icon}
               </motion.div>
             </motion.div>

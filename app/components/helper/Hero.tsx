@@ -42,7 +42,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-5 justify-center md:justify-start">
             <div className="flex items-center justify-center p-4 gap-2 rounded-lg shadow-lg bg-purple-700">
-              <h1 className="font-bold text-5xl text-white">3</h1>
+              <h1 className="font-bold text-5xl text-white">4</h1>
               <div>
                 <p className="text-white text-sm">
                   Years of <br /> Experience
@@ -51,7 +51,7 @@ const Hero = () => {
             </div>
 
             <div className="flex items-center justify-center p-4 gap-2 rounded-lg shadow-lg bg-purple-700">
-              <h1 className="font-bold text-5xl text-white">71</h1>
+              <h1 className="font-bold text-5xl text-white">80+</h1>
               <div>
                 <p className="text-white text-sm">
                   Projects <br /> completed
