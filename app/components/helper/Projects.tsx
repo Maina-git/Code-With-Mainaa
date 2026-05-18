@@ -3,10 +3,6 @@ import React from "react";
 import Image from "next/image";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { SiNodedotjs } from "react-icons/si";
-import { SiPostgresql } from "react-icons/si";
-import { SiTensorflow } from "react-icons/si";
-import { ImGithub } from "react-icons/im";
 
 
 
@@ -83,7 +79,7 @@ const projects = [
     description:
       "Backend REST API for managing contacts with authentication, CRUD operations, and error handling using Express.js and MongoDB.",
     link: "https://github.com/Maina-git/Depesh-Malvia.git",
-    image: "/images/images (6).png",
+    image: "/images/images (7).png",
     tools: ["Node.js", "Express.js", "MongoDB", "JWT"],
   },
   {
@@ -91,8 +87,8 @@ const projects = [
     title: "Neon Prisma Backend",
     description:
       "Backend project demonstrating Neon PostgreSQL integration with Prisma ORM, including schema design and database operations.",
-    link: "https://github.com/Maina-git/Prisma-ORM-NEONpostgress.git",
-    image: "/images/Postgresql_elephant.svg.png ",
+    link: "images/kuszapro-source-code-583537.jpg",
+    image: "/images/kropekk_pl-cloud-1835332.png",
     tools: ["Node.js", "Prisma", "PostgreSQL", "Express.js"],
   },
   {
@@ -101,7 +97,7 @@ const projects = [
     description:
       "Backend project focused on Express.js server setup, routing, controllers, middleware, and structured API architecture.",
     link: "https://github.com/Maina-git/365-Days-of-Backend-Web-Development.git",
-    image: "/images/express.png",
+    image: "/images/kuszapro-source-code-583537.jpg",
     tools: ["Node.js", "Express.js", "REST API"],
   },
 

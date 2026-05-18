@@ -12,119 +12,21 @@ import { motion } from "framer-motion";
 import { SiPython } from "react-icons/si";
 
 // Frameworks & Libraries
-
-
 // Backend & Databases
 import { SiNodedotjs } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
-
 // Machine Learning
 import { SiTensorflow } from "react-icons/si";
 import { SiScikitlearn } from "react-icons/si";
 
-
-
+import { SiAngular } from "react-icons/si";
+import { SiReact } from "react-icons/si";
 
 
 const About = () => {
 
-
-
-
-
-/*
-  const skillCategories = [
-    {
-      title: "Programming Languages",
-      skills: [
-        {
-          id: 1,
-          title: "HTML 5",
-          description: "The standard markup language for creating web pages.",
-          icon: <FaHtml5 className="text-orange-600 text-5xl" />,
-        },
-        {
-          id: 2,
-          title: "CSS 3",
-          description: "Used to style and design web pages.",
-          icon: <FaCss3Alt className="text-blue-600 text-5xl" />,
-        },
-        {
-          id: 3,
-          title: "JavaScript",
-          description: "Adds interactivity and logic to websites.",
-          icon: <IoLogoJavascript className="text-yellow-500 text-5xl" />,
-        },
-        {
-          id: 4,
-          title: "TypeScript",
-          description: "JavaScript with static typing.",
-          icon: <BiLogoTypescript className="text-blue-500 text-5xl" />,
-        },
-      ],
-    },
-    {
-      title: "Frameworks & Libraries",
-      skills: [
-        {
-          id: 5,
-          title: "React JS",
-          description: "Build dynamic user interfaces.",
-          icon: <RiReactjsLine className="text-cyan-400 text-5xl" />,
-        },
-        {
-          id: 6,
-          title: "Next JS",
-          description: "Production-ready React framework.",
-          icon: <SiNextdotjs className="text-black dark:text-white text-5xl" />,
-        },
-        {
-          id: 7,
-          title: "Tailwind CSS",
-          description: "Utility-first CSS framework.",
-          icon: <RiTailwindCssFill className="text-sky-400 text-5xl" />,
-        },
-        {
-          id: 8,
-          title: "Bootstrap",
-          description: "Component-based UI framework.",
-          icon: <FaBootstrap className="text-purple-600 text-5xl" />,
-        },
-      ],
-    },
-    {
-      title: "AI Tools",
-      skills: [
-        {
-          id: 9,
-          title: "GitHub Copilot",
-          description: "AI coding assistant.",
-          icon: <SiGithubcopilot className="text-green-500 text-5xl" />,
-        },
-        {
-          id: 10,
-          title: "ChatGPT",
-          description: "AI for coding, debugging & content.",
-          icon: <MdOutlineSmartToy className="text-green-500 text-5xl" />,
-        },
-        {
-          id: 11,
-          title: "Claude AI",
-          description: "AI assistant for problem-solving.",
-          icon: <MdSmartToy className="text-purple-500 text-5xl" />,
-        },
-        {
-          id: 12,
-          title: "Git & GitHub",
-          description: "Version control & collaboration.",
-          icon: <ImGithub className="text-gray-800 dark:text-white text-5xl" />,
-        },
-      ],
-    },
-  ];
-  */
 
 const skillCategories = [
   {
@@ -190,6 +92,18 @@ const skillCategories = [
         description: "Component-based UI framework.",
         icon: <FaBootstrap className="text-purple-600 text-5xl" />,
       },
+     {
+     id: 10,
+     title: "Angular",
+     description: "Frontend framework for building dynamic single-page applications.",
+    icon: <SiAngular className="text-red-600 text-5xl" />,
+     },
+     {
+      id: 11,
+      title: "React Native",
+      description: "Framework for building cross-platform mobile applications.",
+      icon: <SiReact className="text-cyan-400 text-5xl" />,
+     },
     ],
   },
 
