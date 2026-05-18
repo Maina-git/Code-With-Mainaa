@@ -21,7 +21,7 @@ const Navbar = ({ showNav }: Props) => {
   
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/mycv/FRANCIS_MAINA_FlowCV_Resume_2026-05-03.pdf "; 
+    link.href = "mycv/FRANCIS_MAINA_FlowCV_Resume_2026-05-18.pdf "; 
     link.download = "Francis_CV.pdf";
     document.body.appendChild(link);
     link.click();

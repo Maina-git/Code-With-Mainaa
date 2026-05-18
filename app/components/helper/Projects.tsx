@@ -3,72 +3,120 @@ import React from "react";
 import Image from "next/image";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { SiNodedotjs } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
+import { SiTensorflow } from "react-icons/si";
+import { ImGithub } from "react-icons/im";
+
+
 
 const Projects = () => {
-  const projects = [
-    {
-      id: 1,
-      title: "Travel Website",
-      description:
-        "A travel website that allows users to explore and book travel destinations.",
-      link: "https://tripi-travel-app-ashen.vercel.app/",
-      image: "/images/Screenshot (34).png",
-      tools: ["React", "Tailwind CSS", "Typescript"],
-    },
-    {
-      id: 2,
-      title: "Job Portal",
-      description: "A job portal that connects job seekers with employers.",
-      link: "https://job-portal-indol-seven.vercel.app/",
-      image: "/images/Screenshot (30).png",
-      tools: ["React", "Tailwind CSS", "Typescript"],
-    },
-    {
-      id: 3,
-      title: "Blog Haven",
-      description:
-        "A blogging platform that allows users to create and share blog posts.",
-      link: "https://generationnow.netlify.app/",
-      image: "/images/Screenshot (20).png",
-      tools: ["React", "Tailwind CSS", "Typescript", "Firebase"],
-    },
-    {
-      id: 4,
-      title: "GD Coding",
-      description:
-        "A website for a coding bootcamp that offers coding courses and resources.",
-      link: "https://gdfrancis.netlify.app",
-      image: "/images/Screenshot (14).png",
-      tools: ["HTML", "CSS", "JavaScript"],
-    },
-    {
-      id: 5,
-      title: "Amazon Landing Page",
-      description:
-        "A landing page for Amazon that showcases its products and services.",
-      link: "https://francisamazon.netlify.app/",
-      image: "/images/Screenshot (6).png",
-      tools: ["React", "CSS"],
-    },
-    {
-      id: 6,
-      title: "Car Vibe Perfect Ride",
-      description:
-        "A motor rental website that allows users to book motorcycles for rent.",
-      link: "https://perfectride.netlify.app/",
-      image: "/images/Screenshot (42).png",
-      tools: ["React", "Tailwind CSS", "Typescript", "Firebase"],
-    },
- {
-      id: 7,
-      title: "TR Road Safety Security & Authority",
-      description:
-        "A website that is  meant to ensure there is  road safety and  Security",
-      link: "https://tr-road-safety-platform.vercel.app/",
-      image: "/images/Screenshot (236).png",
-      tools: ["React", "Tailwind CSS", "Typescript", "Firebase"],
-    },
-  ];
+  
+const projects = [
+  {
+    id: 1,
+    title: "Travel Website",
+    description:
+      "A travel website that allows users to explore and book travel destinations.",
+    link: "https://tripi-travel-app-ashen.vercel.app/",
+    image: "/images/Screenshot (34).png",
+    tools: ["React", "Tailwind CSS", "Typescript"],
+  },
+  {
+    id: 2,
+    title: "Job Portal",
+    description: "A job portal that connects job seekers with employers.",
+    link: "https://job-portal-indol-seven.vercel.app/",
+    image: "/images/Screenshot (30).png",
+    tools: ["React", "Tailwind CSS", "Typescript"],
+  },
+  {
+    id: 3,
+    title: "Blog Haven",
+    description:
+      "A blogging platform that allows users to create and share blog posts.",
+    link: "https://generationnow.netlify.app/",
+    image: "/images/Screenshot (20).png",
+    tools: ["React", "Tailwind CSS", "Typescript", "Firebase"],
+  },
+  {
+    id: 4,
+    title: "GD Coding",
+    description:
+      "A website for a coding bootcamp that offers coding courses and resources.",
+    link: "https://gdfrancis.netlify.app",
+    image: "/images/Screenshot (14).png",
+    tools: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    id: 5,
+    title: "Amazon Landing Page",
+    description:
+      "A landing page for Amazon that showcases its products and services.",
+    link: "https://francisamazon.netlify.app/",
+    image: "/images/Screenshot (6).png",
+    tools: ["React", "CSS"],
+  },
+  {
+    id: 6,
+    title: "Car Vibe Perfect Ride",
+    description:
+      "A motor rental website that allows users to book motorcycles for rent.",
+    link: "https://perfectride.netlify.app/",
+    image: "/images/Screenshot (42).png",
+    tools: ["React", "Tailwind CSS", "Typescript", "Firebase"],
+  },
+  {
+    id: 7,
+    title: "TR Road Safety Security & Authority",
+    description:
+      "A platform focused on road safety and security awareness and reporting.",
+    link: "https://tr-road-safety-platform.vercel.app/",
+    image: "/images/Screenshot (236).png",
+    tools: ["React", "Tailwind CSS", "Typescript", "Firebase"],
+  },
+
+  // BACKEND PROJECTS (GitHub links)
+  {
+    id: 8,
+    title: "Contact Manager API",
+    description:
+      "Backend REST API for managing contacts with authentication, CRUD operations, and error handling using Express.js and MongoDB.",
+    link: "https://github.com/Maina-git/Depesh-Malvia.git",
+    image: "/images/images (6).png",
+    tools: ["Node.js", "Express.js", "MongoDB", "JWT"],
+  },
+  {
+    id: 9,
+    title: "Neon Prisma Backend",
+    description:
+      "Backend project demonstrating Neon PostgreSQL integration with Prisma ORM, including schema design and database operations.",
+    link: "https://github.com/Maina-git/Prisma-ORM-NEONpostgress.git",
+    image: "/images/Postgresql_elephant.svg.png ",
+    tools: ["Node.js", "Prisma", "PostgreSQL", "Express.js"],
+  },
+  {
+    id: 10,
+    title: "Express Server & Routing System",
+    description:
+      "Backend project focused on Express.js server setup, routing, controllers, middleware, and structured API architecture.",
+    link: "https://github.com/Maina-git/365-Days-of-Backend-Web-Development.git",
+    image: "/images/express.png",
+    tools: ["Node.js", "Express.js", "REST API"],
+  },
+
+  // FINAL ANIMATED "MORE PROJECTS" CARD
+  {
+    id: 11,
+    title: "More Projects",
+    description:
+      "Explore more projects, experiments, and open source contributions on my GitHub profile.",
+    link: "https://github.com/Maina-git",
+    image: "/images/ml.png",
+    tools: ["GitHub", "Open Source", "Full Stack"],
+    isAnimated: true,
+  },
+];
 
 
   const directions = [
@@ -132,7 +180,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-purple-700 hover:text-purple-900 dark:text-purple-300 dark:hover:text-white transition">
-                      View Project <FaExternalLinkAlt className="text-xs" />
+                      View  <FaExternalLinkAlt className="text-xs" />
                     </a>
                   )}
                 </div>

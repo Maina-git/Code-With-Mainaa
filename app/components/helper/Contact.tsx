@@ -1,111 +1,3 @@
-"use client";
-/*
-import React from "react";
-import { GrMail } from "react-icons/gr";
-import { AiFillLike } from "react-icons/ai";
-import { FaInstagramSquare, FaLinkedin, FaGithub, FaWhatsappSquare } from "react-icons/fa";
-import Link from "next/link";
-import { motion } from "framer-motion";
-
-const Contact = () => {
-  return (
-    <div className="w-full py-16 bg-gray-50 dark:bg-black flex flex-col gap-8">
-      <motion.h1
-        initial={{ opacity: 0, y: -40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.7 }}
-        viewport={{ once: true }}
-        className="text-4xl font-bold text-center text-gray-900 dark:text-white">
-        Contact Me
-      </motion.h1>
-
-      <div className="w-[90%] mx-auto flex flex-col md:flex-row items-center justify-center p-10 bg-white dark:bg-purple-900 shadow-lg gap-10">
-        <motion.div
-          initial={{ opacity: 0, x: -60 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="w-full md:w-1/2 flex flex-col items-start gap-6 text-gray-700 dark:text-gray-300">
-          <h2 className="text-5xl font-bold text-purple-700 dark:text-purple-400">
-            Get in Touch
-          </h2>
-          <p className="text-lg">love to hear from you</p>
-          <p className="text-sm leading-relaxed">
-            If you have any queries or just want to say hi, feel free to use the
-            contact form or reach me through my socials.
-          </p>
-
-    
-          <div className="flex items-center gap-3 mt-4">
-            <GrMail className="text-2xl text-purple-700 dark:text-purple-400" />
-            <span className="text-lg">francismm2023@gmail.com</span>
-          </div>
-          <div className="flex items-center gap-3 mt-4">
-            <FaWhatsappSquare className="text-2xl text-green-700 dark:text-purple-400" />
-            <span className="text-lg">+254 793 720 578</span>
-          </div>
-          <div className="flex items-center gap-4 mt-4">
-            <div className="flex gap-5">
-              <Link href="https://www.instagram.com/francis_mainaa/">
-                <FaInstagramSquare className="text-3xl text-purple-700 hover:text-purple-900 dark:text-purple-300 dark:hover:text-white transition" />
-              </Link>
-              <Link href="https://www.linkedin.com/in/francis-mainaa-927b3b1b6/">
-                <FaLinkedin className="text-3xl text-purple-700 hover:text-purple-900 dark:text-purple-300 dark:hover:text-white transition" />
-              </Link>
-              <Link href="https://github.com/Maina-git">
-                <FaGithub className="text-3xl text-purple-700 hover:text-purple-900 dark:text-purple-300 dark:hover:text-white transition" />
-              </Link>
-            </div>
-          </div>
-        </motion.div>
-
-    
-        <motion.div
-          initial={{ opacity: 0, x: 60 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="w-full md:w-1/2">
-          <form className="flex flex-col gap-4 bg-gray-50 dark:bg-black p-6 rounded-lg shadow-inner">
-            <div className="flex flex-col md:flex-row gap-4">
-              <input
-                type="text"
-                placeholder="First Name"
-                className="flex-1 px-4 py-2 rounded-lg border border-purple-300 dark:border-purple-500 
-                bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-purple-500 outline-none"/>
-              <input
-                type="text"
-                placeholder="Last Name"
-                className="flex-1 px-4 py-2 rounded-lg border border-purple-300 dark:border-purple-500 
-                bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-purple-500 outline-none"/>
-            </div>
-            <input
-              type="email"
-              placeholder="Email"
-              className="px-4 py-2 rounded-lg border border-purple-300 dark:border-purple-500 
-              bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-purple-500 outline-none"/>
-            <textarea
-              rows={4}
-              placeholder="Message"
-              className="px-4 py-2 rounded-lg border border-purple-300 dark:border-purple-500 
-              bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-purple-500 outline-none"/>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              type="submit"
-              className="w-full py-3 mt-2 bg-purple-700 hover:bg-purple-800 
-              text-white font-semibold rounded-lg shadow-md transition cursor-pointer">
-              Send Message
-            </motion.button>
-          </form>
-        </motion.div>
-      </div>
-    </div>
-  );
-};
-
-export default Contact;
-*/
 
 "use client";
 
@@ -130,37 +22,31 @@ const Contact = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
-          className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900 dark:text-white"
-        >
+          className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900 dark:text-white">
           Contact Me
         </motion.h1>
 
         <div className="grid md:grid-cols-2 gap-8">
 
-          {/* Left Section */}
           <motion.div
             initial={{ opacity: 0, x: -60 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="bg-white dark:bg-zinc-900 p-8 rounded-2xl shadow-xl"
-          >
+            className="bg-white dark:bg-zinc-900 p-8 rounded-2xl shadow-xl">
             <h2 className="text-3xl font-bold text-purple-700 mb-4">
               Let’s Build Something Great
             </h2>
 
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-8">
-              I’m always open to frontend development opportunities,
-              freelance projects, collaborations, and meaningful tech
-              conversations.
+           I’m always open to software engineering opportunities, freelance projects, collaborations, and meaningful tech conversations.
             </p>
 
             <div className="space-y-6">
 
               <Link
                 href="mailto:francismm20236@gmail.com"
-                className="flex items-center gap-4 group"
-              >
+                className="flex items-center gap-4 group">
                 <GrMail className="text-2xl text-purple-600" />
                 <span className="group-hover:text-purple-600 transition">
                   francismm20236@gmail.com
@@ -170,8 +56,7 @@ const Contact = () => {
               <Link
                 href="https://wa.me/254793720578"
                 target="_blank"
-                className="flex items-center gap-4 group"
-              >
+                className="flex items-center gap-4 group">
                 <FaWhatsappSquare className="text-2xl text-green-600" />
                 <span className="group-hover:text-green-600 transition">
                   +254 793 720 578
@@ -181,15 +66,13 @@ const Contact = () => {
             </div>
           </motion.div>
 
-          {/* Right Section */}
           <motion.div
             initial={{ opacity: 0, x: 60 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
             className="bg-gradient-to-br from-purple-700 to-purple-900 
-            p-8 rounded-2xl shadow-xl text-white"
-          >
+            p-8 rounded-2xl shadow-xl text-white">
             <h2 className="text-2xl font-bold mb-8">
               Connect With Me
             </h2>
@@ -199,8 +82,7 @@ const Contact = () => {
               <Link
                 href="https://code-with-mainaa-3m5a.vercel.app/"
                 target="_blank"
-                className="flex items-center gap-4 hover:translate-x-2 transition"
-              >
+                className="flex items-center gap-4 hover:translate-x-2 transition">
                 <FaGlobe className="text-2xl" />
                 <span>Portfolio Website</span>
               </Link>
@@ -208,8 +90,7 @@ const Contact = () => {
               <Link
                 href="https://www.linkedin.com/in/francis-mainaa-2116342b2"
                 target="_blank"
-                className="flex items-center gap-4 hover:translate-x-2 transition"
-              >
+                className="flex items-center gap-4 hover:translate-x-2 transition">
                 <FaLinkedin className="text-2xl" />
                 <span>LinkedIn Profile</span>
               </Link>
@@ -217,22 +98,19 @@ const Contact = () => {
               <Link
                 href="https://github.com/Maina-git"
                 target="_blank"
-                className="flex items-center gap-4 hover:translate-x-2 transition"
-              >
+                className="flex items-center gap-4 hover:translate-x-2 transition">
                 <FaGithub className="text-2xl" />
                 <span>GitHub Projects</span>
               </Link>
-
             </div>
 
             <div className="mt-10 border-t border-purple-400 pt-6">
               <p className="text-sm opacity-90">
-                Available for Frontend Development, React, Next.js,
-                UI/UX, and freelance opportunities.
+               Available for software development, full stack development,
+                React, Next.js, UI/UX, and freelance opportunities.
               </p>
             </div>
           </motion.div>
-
         </div>
       </div>
     </section>

@@ -8,10 +8,33 @@ import { SiNextdotjs, SiGithubcopilot } from "react-icons/si";
 import { ImGithub } from "react-icons/im";
 import { MdSmartToy, MdOutlineSmartToy } from "react-icons/md";
 import { motion } from "framer-motion";
+// Programming Languages
+import { SiPython } from "react-icons/si";
+
+// Frameworks & Libraries
+
+
+// Backend & Databases
+import { SiNodedotjs } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
+
+// Machine Learning
+import { SiTensorflow } from "react-icons/si";
+import { SiScikitlearn } from "react-icons/si";
+
+
+
+
 
 const About = () => {
 
 
+
+
+
+/*
   const skillCategories = [
     {
       title: "Programming Languages",
@@ -101,6 +124,158 @@ const About = () => {
       ],
     },
   ];
+  */
+
+const skillCategories = [
+  {
+    title: "Programming Languages",
+    skills: [
+      {
+        id: 1,
+        title: "HTML 5",
+        description: "The standard markup language for creating web pages.",
+        icon: <FaHtml5 className="text-orange-600 text-5xl" />,
+      },
+      {
+        id: 2,
+        title: "CSS 3",
+        description: "Used to style and design web pages.",
+        icon: <FaCss3Alt className="text-blue-600 text-5xl" />,
+      },
+      {
+        id: 3,
+        title: "JavaScript",
+        description: "Adds interactivity and logic to websites.",
+        icon: <IoLogoJavascript className="text-yellow-500 text-5xl" />,
+      },
+      {
+        id: 4,
+        title: "TypeScript",
+        description: "JavaScript with static typing.",
+        icon: <BiLogoTypescript className="text-blue-500 text-5xl" />,
+      },
+      {
+        id: 5,
+        title: "Python",
+        description: "Used for backend development and machine learning.",
+        icon: <SiPython className="text-blue-400 text-5xl" />,
+      },
+    ],
+  },
+
+  {
+    title: "Frameworks & Libraries",
+    skills: [
+      {
+        id: 6,
+        title: "React JS",
+        description: "Build dynamic user interfaces.",
+        icon: <RiReactjsLine className="text-cyan-400 text-5xl" />,
+      },
+      {
+        id: 7,
+        title: "Next JS",
+        description: "Production-ready React framework.",
+        icon: <SiNextdotjs className="text-black dark:text-white text-5xl" />,
+      },
+      {
+        id: 8,
+        title: "Tailwind CSS",
+        description: "Utility-first CSS framework.",
+        icon: <RiTailwindCssFill className="text-sky-400 text-5xl" />,
+      },
+      {
+        id: 9,
+        title: "Bootstrap",
+        description: "Component-based UI framework.",
+        icon: <FaBootstrap className="text-purple-600 text-5xl" />,
+      },
+    ],
+  },
+
+  {
+    title: "Backend & Databases",
+    skills: [
+      {
+        id: 10,
+        title: "Node.js / Express.js",
+        description: "Backend runtime and server framework.",
+        icon: <SiNodedotjs className="text-green-600 text-5xl" />,
+      },
+      {
+        id: 11,
+        title: "MongoDB",
+        description: "NoSQL database for scalable applications.",
+        icon: <SiMongodb className="text-green-500 text-5xl" />,
+      },
+      {
+        id: 12,
+        title: "PostgreSQL",
+        description: "Powerful relational database system.",
+        icon: <SiPostgresql className="text-blue-500 text-5xl" />,
+      },
+      {
+        id: 13,
+        title: "Firebase",
+        description: "Backend-as-a-Service for authentication and storage.",
+        icon: <SiFirebase className="text-yellow-500 text-5xl" />,
+      },
+    ],
+  },
+
+  {
+    title: "Machine Learning",
+    skills: [
+      {
+        id: 14,
+        title: "TensorFlow",
+        description: "Deep learning and neural networks framework.",
+        icon: <SiTensorflow className="text-orange-500 text-5xl" />,
+      },
+      {
+        id: 15,
+        title: "Scikit-learn",
+        description: "Machine learning library for Python.",
+        icon: <SiScikitlearn className="text-yellow-600 text-5xl" />,
+      },
+    ],
+  },
+
+  {
+    title: "AI Tools",
+    skills: [
+      {
+        id: 16,
+        title: "GitHub Copilot",
+        description: "AI coding assistant.",
+        icon: <SiGithubcopilot className="text-green-500 text-5xl" />,
+      },
+      {
+        id: 17,
+        title: "ChatGPT",
+        description: "AI for coding, debugging & content.",
+        icon: <MdOutlineSmartToy className="text-green-500 text-5xl" />,
+      },
+      {
+        id: 18,
+        title: "Claude AI",
+        description: "AI assistant for problem-solving.",
+        icon: <MdSmartToy className="text-purple-500 text-5xl" />,
+      },
+      {
+        id: 19,
+        title: "Git & GitHub",
+        description: "Version control & collaboration.",
+        icon: <ImGithub className="text-gray-800 dark:text-white text-5xl" />,
+      },
+    ],
+  },
+];
+
+
+
+
+
 
   return (
     <div className="flex flex-col items-center py-12">

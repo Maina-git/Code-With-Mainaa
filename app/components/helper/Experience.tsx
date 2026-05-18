@@ -38,7 +38,7 @@ const Experience = () => {
     {
       id: 4,
       year: "2025 - Present",
-      position: "Frontend Web Developer",
+      position: "Software Developer",
       company: "Freelancer.com",
       description:
         "Working with global clients to design and build responsive, user-friendly web interfaces using React, Tailwind CSS, and modern frontend tools. Delivering high-quality projects focused on performance, accessibility, and great user experience.",
@@ -47,7 +47,7 @@ const Experience = () => {
    {
       id: 5,
       year: "2025 - Present",
-      position: "Frontend Developer",
+      position: "Front-End & Backend Developer",
       company: "Fiverr",
       description:
         "Offering frontend development services through Fiverr gigs, specializing in building modern, responsive, and high-performance web applications. Skilled in React, Next.js, and Tailwind CSS to create visually appealing and user-friendly interfaces. Focused on delivering clean code, fast performance, and client satisfaction across multiple projects.",

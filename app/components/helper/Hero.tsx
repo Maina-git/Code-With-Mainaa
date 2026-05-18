@@ -18,13 +18,14 @@ const Hero = () => {
             Francis Mainaa
           </h2>
           <h1 className="text-5xl text-black font-bold dark:text-purple-500 leading-tight">
-            Web & Mobile <br />
-            FrontEnd Engineer
+            Software Engineer
           </h1>
           <p className="text-purple-700 text-sm dark:text-white">
-            Hey I am Francis a result driven Frontend Developer with strong foundation in building
-            responsive, user friendly, and performance optimized web applications. My focus is on delivering
-            fast, modern and engaging digital experiences that keep users coming back.
+          Hey I am Francis a results driven Full Stack Web Developer with
+           a strong foundation in building responsive, user friendly, and
+           performance optimized web applications. I specialize in developing
+           both frontend and backend systems to deliver fast, modern, and scalable
+          digital experiences that provide seamless user interactions.
           </p>
           <span className="flex justify-center gap-10 items-center md:justify-start mb-4">
             <Link href="https://github.com/Maina-git">
