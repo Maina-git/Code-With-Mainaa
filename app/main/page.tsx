@@ -27,7 +27,7 @@ useEffect(() => {
 
 return (
   <div>
-    <div id="hero">
+    <div id="hero" className="overflow-y-hidden">
       <Hero />
     </div>
     <div id="about">

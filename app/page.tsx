@@ -3,7 +3,7 @@ import Main from './main/page';
 
 const page = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden overflow-y-hidden">
       <Main/>
     </div>
   );

@@ -12,7 +12,7 @@ const font = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: "Meet Mainaa",
+  title: "SWE Mainaa",
   description: "Next js Template",
 };
 

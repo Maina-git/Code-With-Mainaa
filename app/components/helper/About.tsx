@@ -192,23 +192,26 @@ const skillCategories = [
 
 
   return (
-    <div className="flex flex-col items-center py-12">
+    <div className="flex flex-col items-center py-12
+    ">
       
       <motion.div
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="w-[90%] text-center space-y-6"
-      >
+        className="w-[90%] text-center space-y-6">
         <h1 className="text-3xl font-bold text-purple-800 dark:text-white">
           About Me
         </h1>
 
-        <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-          I specialize in building modern, responsive, and scalable web
-          applications with clean code and great user experience.
-        </p>
+        <p className="text-purple-800 dark:text-gray-300 max-w-2xl mx-auto">
+        I specialize in designing and developing modern, scalable, and high performance 
+        software applications with clean, maintainable code and seamless user experiences.
+         My expertise spans full stack web development, backend architecture, RESTful API
+        development, database management, and responsive frontend engineering using modern
+         technologies and industry best practices. </p>
+
       </motion.div>
 
       {/* SKILLS */}
