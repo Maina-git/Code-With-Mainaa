@@ -243,14 +243,16 @@ const projects = [
     image: "/images/Screenshot (6).png",
     tools: ["React", "CSS"],
   },
-  {
-    id: 6,
-    title: "Car Vibe Perfect Ride",
-    description: "A motor rental website that allows users to book motorcycles for rent.",
-    link: "https://perfectride.netlify.app/",
-    image: "/images/Screenshot (42).png",
-    tools: ["React", "Tailwind CSS", "Typescript", "Firebase"],
-  },
+{
+  id: 6,
+  title: "Sarova Hotels",
+  description:
+    "A modern hotel booking platform that allows users to browse available rooms, view hotel details, and make reservations through a seamless and responsive user experience.",
+  link: "https://sarova-hotels-2zxk.vercel.app/",
+  image: "/images/Screenshot (270).png",
+  tools: ["React Js", "Tailwind CSS", "Typescript", "Express Js", "Prisma ORM", "Neon DB"],
+  isAnimated: true,
+},
   {
     id: 7,
     title: "TR Road Safety Security & Authority",
@@ -286,7 +288,7 @@ const projects = [
     image: "/images/kuszapro-source-code-583537.jpg",
     tools: ["Node.js", "Express.js", "REST API"],
   },
-  {
+ {
     id: 11,
     title: "More Projects",
     description:
