@@ -128,10 +128,10 @@ const Contact = () => {
                 <div className="flex-1 min-w-0">
                   <p className="text-xs font-semibold tracking-widest uppercase text-violet-500 dark:text-violet-400 mb-1">Email</p>
                   <Link
-                    href="mailto:francismm20236@gmail.com"
+                    href="mailto:francismm2023@gmail.com"
                     className="text-sm font-semibold text-gray-800 dark:text-gray-100 hover:text-violet-600 dark:hover:text-violet-400 transition-colors duration-200 truncate block"
                   >
-                    francismm20236@gmail.com
+                    francismm2023@gmail.com
                   </Link>
                 </div>
                 {/* Copy button */}
