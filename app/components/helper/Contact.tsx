@@ -39,7 +39,7 @@ const Contact = () => {
   const [copied, setCopied] = useState(false);
  
   const copyEmail = () => {
-    navigator.clipboard.writeText("francismm20236@gmail.com");
+    navigator.clipboard.writeText("francismm2023@gmail.com");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
